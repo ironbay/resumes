@@ -1,0 +1,133 @@
+body {
+	font-family: 'Raleway';
+	color: #434343;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+div {
+	display: flex;
+	letter-spacing: 0.1em;
+	line-height: 2;
+}
+
+div.vertical {
+	flex-direction: column;
+}
+
+div.horizontal {
+	flex-direction: row;
+}
+
+div.grow {
+	flex-grow: 1;
+}
+
+div.vertical.v-center {
+	justify-content: center;
+}
+
+div.pad-h {
+	padding: 1.5rem 0;
+}
+
+div.uppercase {
+	text-transform: uppercase;
+}
+
+div.wide {
+	letter-spacing: 0.15em;
+}
+
+div.fg-gray {
+	color: #adadad;
+}
+
+div.medium {
+	font-weight: 500;
+}
+
+div.semi-bold {
+	font-weight: 600;
+}
+
+div.bold {
+	font-weight: 700;
+}
+
+div.extra-bold {
+	font-weight: 800;
+}
+
+div.black {
+	font-weight: 900;
+}
+
+div.stack {
+	margin-bottom: 2rem;
+}
+
+div.small-stack {
+	margin-bottom: 1rem;
+}
+
+div.text-small {
+	font-size: 0.9rem;
+}
+
+div.text-large {
+	font-size: 1.15rem;
+}
+
+div.text-xl {
+	font-size: 1.75rem;
+}
+
+.page {
+	width: 612pt;
+	margin: 0 auto;
+	padding: 2rem 0;
+}
+
+.hero {
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+
+.line {
+	width: 6rem;
+	height: 4px;
+	background: black;
+}
+
+.tag-list {
+	margin-top: 0.5rem;
+}
+
+.tag-list {
+	flex-wrap: wrap;
+}
+
+.tag-list > * {
+	border: 2px solid;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	font-weight: 700;
+	padding: 0 1rem;
+	border-radius: 4px;
+	letter-spacing: 0.15em;
+	margin-right: 0.75rem;
+	margin-bottom: 1em;
+	color: #434343;
+}
+
+a {
+	color: #3498db;
+	text-decoration: none;
+	font-weight: 500;
+}
